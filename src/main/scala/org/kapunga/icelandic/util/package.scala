@@ -5,9 +5,8 @@ import java.security.MessageDigest
 
 
 /**
-  * Created by kapunga on 6/10/17.
+  * @author Paul J Thordarson kapunga@gmail.com
   */
 package object util {
-  def md5(s: String): String =
-    BigInt(1, MessageDigest.getInstance("MD5").digest(s.getBytes)).toString(36)
+  def md5(s: String): String = BigInt(1, MessageDigest.getInstance("MD5").digest(s.getBytes)).toString(36)
 }

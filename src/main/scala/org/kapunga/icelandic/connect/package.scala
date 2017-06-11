@@ -1,7 +1,7 @@
 package org.kapunga.icelandic
 
 /**
-  * Created by kapunga on 6/10/17.
+  * @author Paul J Thordarson kapunga@gmail.com
   */
 package object connect {
   val cacheDirectory: String = "cache/"
